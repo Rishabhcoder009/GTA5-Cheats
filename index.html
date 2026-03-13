@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>GTA Cheat Hub</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="loader" id="loader">
+Loading GTA Cheats...
+</div>
+
+<div class="overlay">
+
+<header>
+
+<div class="logo">
+GTA <span>VI</span> CHEAT HUB
+</div>
+
+<div class="topbar">
+
+<input id="search" placeholder="Search cheat">
+
+<select id="platform">
+<option value="keyboard">Keyboard</option>
+<option value="ps5">PS5</option>
+<option value="xbox">Xbox</option>
+<option value="phone">Phone</option>
+</select>
+
+</div>
+
+</header>
+
+
+<div class="tabs">
+
+<button class="tab" onclick="filterCat('all')">All</button>
+<button class="tab" onclick="filterCat('player')">Player</button>
+<button class="tab" onclick="filterCat('weapon')">Weapons</button>
+<button class="tab" onclick="filterCat('vehicle')">Vehicles</button>
+<button class="tab" onclick="filterCat('police')">Police</button>
+<button class="tab" onclick="filterCat('fun')">Fun</button>
+
+</div>
+
+
+<div class="container" id="list"></div>
+
+</div>
+
+
+<audio id="clickSound">
+https://actions.google.com/sounds/v1/cartoon/wood_plank_flicks.ogg
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
